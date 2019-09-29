@@ -4,7 +4,7 @@
 #define listsize 100
 typedef int DataType;
 typedef struct {
-	DataType list[listsize];/*listsize的设置根据需求有时会+1*/
+	DataType list[listsize];/*listsize的设置根据需求有时会+1*//*这里是静态存储*/
 	int length;
 }SeqList;
 
