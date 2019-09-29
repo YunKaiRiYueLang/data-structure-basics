@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "数据结构", "数据结构\数据结构.vcxproj", "{EC5AEDB8-D8EF-4776-8E19-5F7D9550E9BE}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "顺序表", "数据结构\数据结构.vcxproj", "{EC5AEDB8-D8EF-4776-8E19-5F7D9550E9BE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "单链表", "单链表\单链表.vcxproj", "{E4D10D72-D5D0-46C8-BFE3-CF947DB0E2D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{EC5AEDB8-D8EF-4776-8E19-5F7D9550E9BE}.Release|x64.Build.0 = Release|x64
 		{EC5AEDB8-D8EF-4776-8E19-5F7D9550E9BE}.Release|x86.ActiveCfg = Release|Win32
 		{EC5AEDB8-D8EF-4776-8E19-5F7D9550E9BE}.Release|x86.Build.0 = Release|Win32
+		{E4D10D72-D5D0-46C8-BFE3-CF947DB0E2D5}.Debug|x64.ActiveCfg = Debug|x64
+		{E4D10D72-D5D0-46C8-BFE3-CF947DB0E2D5}.Debug|x64.Build.0 = Debug|x64
+		{E4D10D72-D5D0-46C8-BFE3-CF947DB0E2D5}.Debug|x86.ActiveCfg = Debug|Win32
+		{E4D10D72-D5D0-46C8-BFE3-CF947DB0E2D5}.Debug|x86.Build.0 = Debug|Win32
+		{E4D10D72-D5D0-46C8-BFE3-CF947DB0E2D5}.Release|x64.ActiveCfg = Release|x64
+		{E4D10D72-D5D0-46C8-BFE3-CF947DB0E2D5}.Release|x64.Build.0 = Release|x64
+		{E4D10D72-D5D0-46C8-BFE3-CF947DB0E2D5}.Release|x86.ActiveCfg = Release|Win32
+		{E4D10D72-D5D0-46C8-BFE3-CF947DB0E2D5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
