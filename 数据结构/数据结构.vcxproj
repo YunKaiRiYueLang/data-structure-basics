@@ -118,7 +118,7 @@
     <ClInclude Include="SeqList.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="顺序表例2.cpp" />
+    <ClCompile Include="顺序表例子3.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
