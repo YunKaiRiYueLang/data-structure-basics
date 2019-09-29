@@ -74,4 +74,20 @@ void ClearList(SeqList &L)
 {
 	L.length =0;
 }
-
+void UnionAB(SeqList &LA, SeqList LB)
+{/*将lb中不再la中的元素插入la*/
+	int i, flag, pos;
+	DataType e;
+	for (i = 1; i < LB.length+1; i++)
+	{
+		flag = GetElement(LB, i, &e);
+		if (flag == 1)
+		{
+			pos = LocateElement(LA, e);
+			if (pos == -1)
+			{
+				InserList(LA, LA.length + 1,e);
+			}
+		}
+	}
+}
