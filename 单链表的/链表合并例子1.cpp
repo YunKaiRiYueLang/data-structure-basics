@@ -5,13 +5,64 @@
 using namespace std;
 
 void MergeList(LinkList A, LinkList B, LinkList &C);
-
+//bool InsertNum(LinkList &A, DataType *a)
+//{
+//	int i;
+//	//cout << a[0] << endl;
+//	for (i = 1; i <= sizeof(a) / sizeof(a[0]); i++)
+//	{
+//		cout << sizeof(a) / sizeof(a[0]) << endl;
+//		if (InsertList(A, i, a[i - 1]) == 0)
+//		{
+//			printf("位置不合法");
+//			return -1;
+//		}
+//	}
+//	return true;
+//}
 int main()
 {
-	int *p = (int *)malloc(sizeof(int) * 4);
-	//LinkList p;
-	//InitList(p);
+	
+	DataType a[] = {8,10,1,21,67,91};
+	DataType b[] = {55,9,10,13,21,78,91};
+	LinkList A, B, C;
+	InitList(A);
+	InitList(B);
+	/*LinkList test;
+	InitList(test);
+	InsertNum(test, a);
+	PrintList(test);
+	system("pause");*/
+	int i;
+	//cout << a[0] << endl;
+	// 数组赋值给链表
+	for (i = 1; i <= sizeof(a) / sizeof(a[0]); i++)
+	{
+
+		if (InsertList(A, i, a[i - 1]) == 0)
+		{
+			printf("位置不合法");
+			return -1;
+		}
+	}
+
+	//cout << a[0] << endl;
+	for (i = 1; i <= sizeof(b) / sizeof(b[0]); i++)
+	{
+
+		if (InsertList(B, i, b[i - 1]) == 0)
+		{
+			printf("位置不合法");
+			return -1;
+		}
+	}
+	PrintList(A); PrintList(B);
+
+	MergeList(A, B, C);
+	PrintList(C);
 	system("pause");
+	return 0;
+
 }
 
 void MergeList(LinkList A, LinkList B, LinkList &C)
@@ -27,7 +78,7 @@ void MergeList(LinkList A, LinkList B, LinkList &C)
 		{
 			qa = pa;
 			pa = pa->next;
-			if (C->next->data == NULL)
+			if (C->next == NULL)
 			{/*为空直接插入*/
 				qa->next = C->next;
 				C->next = qa;
@@ -51,6 +102,39 @@ void MergeList(LinkList A, LinkList B, LinkList &C)
 				qb->next = C->next;
 				C->next = qb;
 			}
+			else if(C->next->data<qb->data)
+			{
+				qb->next = C->next;
+				C->next = qb;
+			}
+			else
+			{
+				free(qb);
+			}
+		}
+	}
+	while (pa)
+	{
+		qa = pa;
+		pa = pa->next;
+		if (C->next&&C->next->data < qa->data)
+		{
+			qa->next = C->next;
+			C->next = qa;
+		}
+	}
+	while (pb)
+	{
+		qb = pb;
+		pb = pb->next;
+		if (C->next&&C->next->data < qb->data)
+		{
+			qb->next = C->next;
+			C->next = qb;
+		}
+		else
+		{
+			free(qb);
 		}
 	}
 

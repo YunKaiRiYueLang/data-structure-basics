@@ -127,4 +127,19 @@ void DestoryList(LinkList head)
 		free(q);
 	}
 }
+
+void PrintList(LinkList A)
+{
+	ListNode *p;
+	for (int i = 0; i <= ListLength(A); i++)
+	{
+		p = Get(A, i);
+		if (p)	printf("%4d", p->data);
+	
+	}
+	printf("%\n");
+}
+
+
+
 /*查找时间复杂度0(n),插入和删除O(1)*/
