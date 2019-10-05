@@ -102,29 +102,6 @@ int DeleteList(LinkList head, int i, DataType &e)
 	free(p);
 	p = NULL;
 	return 1;
-}
-int ListLength(LinkList head)
-{/*求表长,当然,如果在头节点做了其他操作,这一步就变了*/
-	ListNode *p;
-	int count = 0;
-	p = head;
-	while (p->next != NULL)
-	{
-		p = p->next;
-		count++;
-	}
-	return count;
-}
 
-void DestoryList(LinkList head)
-{/*销毁链表*/
-	ListNode *p, *q;
-	p = head;
-	while (p != NULL)
-	{
-		q = p;
-		p = p->next;
-		free(q);
-	}
+	
 }
-/*查找时间复杂度0(n),插入和删除O(1)*/
