@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "顺序表", "数据结构\�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "单链表的", "单链表的\单链表的.vcxproj", "{7E1E96EE-B29C-4B76-910C-D34FBC8439D1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "树", "树\树.vcxproj", "{753EA51D-0468-4270-8026-5F5E17835229}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{7E1E96EE-B29C-4B76-910C-D34FBC8439D1}.Release|x64.Build.0 = Release|x64
 		{7E1E96EE-B29C-4B76-910C-D34FBC8439D1}.Release|x86.ActiveCfg = Release|Win32
 		{7E1E96EE-B29C-4B76-910C-D34FBC8439D1}.Release|x86.Build.0 = Release|Win32
+		{753EA51D-0468-4270-8026-5F5E17835229}.Debug|x64.ActiveCfg = Debug|x64
+		{753EA51D-0468-4270-8026-5F5E17835229}.Debug|x64.Build.0 = Debug|x64
+		{753EA51D-0468-4270-8026-5F5E17835229}.Debug|x86.ActiveCfg = Debug|Win32
+		{753EA51D-0468-4270-8026-5F5E17835229}.Debug|x86.Build.0 = Debug|Win32
+		{753EA51D-0468-4270-8026-5F5E17835229}.Release|x64.ActiveCfg = Release|x64
+		{753EA51D-0468-4270-8026-5F5E17835229}.Release|x64.Build.0 = Release|x64
+		{753EA51D-0468-4270-8026-5F5E17835229}.Release|x86.ActiveCfg = Release|Win32
+		{753EA51D-0468-4270-8026-5F5E17835229}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
