@@ -39,7 +39,7 @@ void CreatBitTree(BitTree &T)
 		if (!T)
 			exit(-1);
 		T->data = ch;
-		CreatBitTree(T->lchild);//创建左右子树
+			 (T->lchild);//创建左右子树
 		CreatBitTree(T->rchild);
 	}
 }
