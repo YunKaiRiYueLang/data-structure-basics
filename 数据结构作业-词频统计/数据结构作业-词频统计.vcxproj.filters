@@ -32,5 +32,8 @@
     <ClInclude Include="..\..\..\..\Users\RAN\source\repos\词频统计\词频统计\Hash.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

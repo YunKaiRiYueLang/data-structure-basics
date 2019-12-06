@@ -122,6 +122,7 @@
   <ItemGroup>
     <ClInclude Include="..\..\..\..\Users\RAN\source\repos\词频统计\词频统计\Globle.h" />
     <ClInclude Include="..\..\..\..\Users\RAN\source\repos\词频统计\词频统计\Hash.h" />
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
