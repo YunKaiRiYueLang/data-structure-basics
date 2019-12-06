@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{8293CC75-63D0-4213-BBE7-E75C0750F1B2}</ProjectGuid>
-    <RootNamespace>图</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <ProjectGuid>{ACDE82E0-D20E-40F2-B511-3A18B5165AAD}</ProjectGuid>
+    <RootNamespace>数据结构作业词频统计</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -115,10 +115,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="源.cpp" />
+    <ClCompile Include="..\..\..\..\Users\RAN\source\repos\词频统计\词频统计\Globle.cpp" />
+    <ClCompile Include="..\..\..\..\Users\RAN\source\repos\词频统计\词频统计\Hash.cpp" />
+    <ClCompile Include="..\..\..\..\Users\RAN\source\repos\词频统计\词频统计\源.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Graph.h" />
+    <ClInclude Include="..\..\..\..\Users\RAN\source\repos\词频统计\词频统计\Globle.h" />
+    <ClInclude Include="..\..\..\..\Users\RAN\source\repos\词频统计\词频统计\Hash.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

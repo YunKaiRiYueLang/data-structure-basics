@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "树", "树\树.vcxproj", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "图", "图\图.vcxproj", "{8293CC75-63D0-4213-BBE7-E75C0750F1B2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "数据结构作业-词频统计", "数据结构作业-词频统计\数据结构作业-词频统计.vcxproj", "{ACDE82E0-D20E-40F2-B511-3A18B5165AAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{8293CC75-63D0-4213-BBE7-E75C0750F1B2}.Release|x64.Build.0 = Release|x64
 		{8293CC75-63D0-4213-BBE7-E75C0750F1B2}.Release|x86.ActiveCfg = Release|Win32
 		{8293CC75-63D0-4213-BBE7-E75C0750F1B2}.Release|x86.Build.0 = Release|Win32
+		{ACDE82E0-D20E-40F2-B511-3A18B5165AAD}.Debug|x64.ActiveCfg = Debug|x64
+		{ACDE82E0-D20E-40F2-B511-3A18B5165AAD}.Debug|x64.Build.0 = Debug|x64
+		{ACDE82E0-D20E-40F2-B511-3A18B5165AAD}.Debug|x86.ActiveCfg = Debug|Win32
+		{ACDE82E0-D20E-40F2-B511-3A18B5165AAD}.Debug|x86.Build.0 = Debug|Win32
+		{ACDE82E0-D20E-40F2-B511-3A18B5165AAD}.Release|x64.ActiveCfg = Release|x64
+		{ACDE82E0-D20E-40F2-B511-3A18B5165AAD}.Release|x64.Build.0 = Release|x64
+		{ACDE82E0-D20E-40F2-B511-3A18B5165AAD}.Release|x86.ActiveCfg = Release|Win32
+		{ACDE82E0-D20E-40F2-B511-3A18B5165AAD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
